@@ -27,17 +27,17 @@ bitbox
 2. Installation
 -----------------------------------------
 
-Tutorials
+3. Tutorials
 -----------------------------------------
 
-Advanced Topics
+4. Advanced Topics
 -----------------------------------------
 
-API 
+5. API 
 -----------------------------------------
 .. toctree::
    :maxdepth: 2
-   :caption: API Reference
+   :caption: 5.1 API Reference
 
    index_references/face_backend
    index_references/utilities
