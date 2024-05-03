@@ -20,19 +20,35 @@
 
 bitbox
 =========================================
+
+Home
+-----------------------------------------
+
+Installation
+-----------------------------------------
+
+Tutorials
+-----------------------------------------
+
+Advanced Topics
+-----------------------------------------
+
+API 
+-----------------------------------------
 .. toctree::
    :maxdepth: 2
    :caption: DOCS
 
    index_references/face_backend
    index_references/utilities
-   index_references/analysis
    
    index_references/coordination
    index_references/expressions
    index_references/kinematics
 
-
-
-
 .. include references the '.rst' files
+
+Development
+-----------------------------------------
+
+
