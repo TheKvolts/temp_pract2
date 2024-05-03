@@ -4,6 +4,8 @@ face\_backend
 backend3DI
 --------------------------------------
 
+This is a description of backend3DI module.
+
 .. automodule:: bitbox.face_backend.backend3DI
    :members:
    :undoc-members:
@@ -11,6 +13,7 @@ backend3DI
 
 functions3DI
 ----------------------------------------
+This is a description of functions3DI module.
 
 .. automodule:: bitbox.face_backend.functions3DI
    :members:

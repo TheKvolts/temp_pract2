@@ -21,10 +21,10 @@
 bitbox
 =========================================
 
-Home
+1. Home
 -----------------------------------------
 
-Installation
+2. Installation
 -----------------------------------------
 
 Tutorials
@@ -37,7 +37,7 @@ API
 -----------------------------------------
 .. toctree::
    :maxdepth: 2
-   :caption: DOCS
+   :caption: API Reference
 
    index_references/face_backend
    index_references/utilities
@@ -48,7 +48,7 @@ API
 
 .. include references the '.rst' files
 
-Development
+6. Development
 -----------------------------------------
 
 
