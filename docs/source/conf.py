@@ -2,14 +2,25 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+import os
+import sys
 
-release = '0.1'
-version = '0.1.0'
+sys.path.insert(0, os.path.abspath('..'))
+project = 'bitbox'
+copyright = '2023, kal'
+author = 'Kvolts'
+
+release = ''
+# version = '0.1.0'
 
 # -- General configuration
+
+# extensions = ['sphinx.ext.autodoc', 
+#               'sphinx.ext.todo', 
+#               'sphinx.ext.doctest',
+#               'sphinx.ext.autosummary',
+#               'sphinx.ext.viewcode',
+#               'sphinx.ext.napoleon']
 
 extensions = [
     'sphinx.ext.duration',
@@ -17,7 +28,15 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinx.ext.githubpages", # ? 
+    "sphinx.ext.viewcode", # ? 
+
+
 ]
+
+# sphinx.ext.autodoc
+autoclass_content = "both"
+autodoc_member_order = "bysource"
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -25,7 +44,9 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
+# templates_path = ['_templates']
 templates_path = ['_templates']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output
 
