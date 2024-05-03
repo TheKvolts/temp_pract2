@@ -6,7 +6,7 @@ analysis
 
    coordination
    expressions
-   index_references/kinematics
+   kinematics
 
 .. automodule:: coordination
     :members:
