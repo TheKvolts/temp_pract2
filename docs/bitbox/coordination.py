@@ -1,5 +1,5 @@
 def cross_correlation(data1, data2):
-    """Computes the cross correlation between two datasets.
+    """Computess the cross correlation between two datasets.
 
     :param data1: dataset 1 description
     :type data1: JSON?
