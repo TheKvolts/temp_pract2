@@ -1,4 +1,11 @@
 def read_rectangles(file):
+    """_summary_
+
+    :param file: _description_
+    :type file: _type_
+    :return: _description_
+    :rtype: _type_
+    """
     with open(file) as f:
         frame_count = 0
         result = {}
@@ -18,6 +25,13 @@ def read_rectangles(file):
     
     
 def read_landmarks(file):
+    """_summary_
+
+    :param file: _description_
+    :type file: _type_
+    :return: _description_
+    :rtype: _type_
+    """
     with open(file) as f:
         frame_count = 0
         result = {}
@@ -41,6 +55,13 @@ def read_landmarks(file):
 
 
 def read_pose(file):
+    """_summary_
+
+    :param file: _description_
+    :type file: _type_
+    :return: _description_
+    :rtype: _type_
+    """
     with open(file) as f:
         frame_count = 0
         result = {}
@@ -62,6 +83,13 @@ def read_pose(file):
 
     
 def read_expression(file):
+    """_summary_
+
+    :param file: _description_
+    :type file: _type_
+    :return: _description_
+    :rtype: _type_
+    """
     with open(file) as f:
         frame_count = 0
         result = {}
@@ -81,6 +109,13 @@ def read_expression(file):
 
 
 def read_canonical_landmarks(file):
+    """_summary_
+
+    :param file: _description_
+    :type file: _type_
+    :return: _description_
+    :rtype: _type_
+    """
     with open(file) as f:
         frame_count = 0
         result = {}
