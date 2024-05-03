@@ -1,24 +1,38 @@
-Welcome to Lumache's documentation!
-===================================
+.. testingSphinx documentation master file, created by
+   sphinx-quickstart on Fri Mar 29 02:51:34 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. 
+   Download autodoc, then go to file -> preferences -> 
+   "autoDocstring.docstringFormat": "sphinx"
+.. 
+   SETUP
+   sphinx-quickstart -> make html 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+   cd into the docs folder. To make updates, you need to run make html.
+   1. make html
+   2. sphinx-autobuild . _build/html
 
-.. note::
+   Run this if you need to do occasioanl updates?
+   In the src folder though.
+   sphinx-apidoc -o docs bitbox
 
-   This project is under active development.
-
-Contents
---------
-
+bitbox
+=========================================
 .. toctree::
+   :maxdepth: 2
+   :caption: DOCS
 
-   usage
-   api
-   modules
+   index_references/face_backend
+   index_references/utilities
+   index_references/analysis
+   
+   index_references/coordination
+   index_references/expressions
+   index_references/kinematics
 
+
+
+
+.. include references the '.rst' files
