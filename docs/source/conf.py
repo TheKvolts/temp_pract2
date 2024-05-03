@@ -6,7 +6,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath('..'))
-project = 'bitbox_1'
+project = 'bitbox'
 copyright = '2024, kal'
 author = 'Kvolts'
 
