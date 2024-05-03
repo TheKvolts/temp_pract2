@@ -1,8 +1,35 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+name = "bitbox"
+version = "2024.03dev1"
+authors = [
+  { name="ComPsy Group", email="tuncb@chop.edu" },
+]
+maintainers = [
+  {name = "ComPsy Group", email = "tuncb@chop.edu"}
+]
+description = "Behavioral Imaging Toolbox"
+keywords = ["computer vision", "psychology", "psychiatry", "behavior", "facial expressions", "body actions"]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    'numpy',
+    'cvxpy',
+    'scikit-learn'
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/Computational-Psychiatry/bitbox"
+Documentation = "https://github.com/Computational-Psychiatry/bitbox/wiki"
+Issues = "https://github.com/Computational-Psychiatry/bitbox/issues"
