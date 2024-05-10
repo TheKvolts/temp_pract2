@@ -24,6 +24,7 @@ bitbox
 1. Home
 -----------------------------------------
 
+
 2. Installation
 -----------------------------------------
 
@@ -37,7 +38,6 @@ bitbox
 -----------------------------------------
 .. toctree::
    :maxdepth: 2
-   :caption: 5.1 API Reference
 
    index_references/face_backend
    index_references/utilities

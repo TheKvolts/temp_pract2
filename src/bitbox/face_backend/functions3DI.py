@@ -58,8 +58,8 @@ def create_expression_sequence(epsilons, E):
 
 
 def total_variance_rec(model_path, e0path, epath, morphable_model='BFMmm-19830'):  
-    """sumary_line
-    
+    """summary_line
+     change this
     Keyword arguments:
     argument -- description
     Return: return_description
